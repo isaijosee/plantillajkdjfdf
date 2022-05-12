@@ -1,0 +1,223 @@
+.encabezado{
+    margin-left: 20px;
+} 
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+html{
+    overflow-x: auto;
+}
+body{
+    font-family: 'Square Peg', cursive;
+    background: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #f4c4f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, white, black);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, white, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 650px;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: white;
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;    
+}
+
+.banner{
+    background-image: url(imagenes/banner.jpg);
+    font-family: 'Square Peg', cursive;
+    background-position: center;
+    margin-top: -48px;
+    background-size: cover;
+      background-repeat: no-repeat;
+      height: 600px;
+      color: white;
+      text-align: center;
+      border-bottom: 2px solid black;
+}
+
+.main{
+     width: 100%;
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%), rgba(0,0,0,0.5)50%, url(imag/moda1.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 109vh;
+}
+
+.navbar{ 
+    margin-left: 20px;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+} 
+
+.icon{
+
+    width: 200px;
+    float: left;
+    height: 70px;
+}   
+
+.logo{
+    color: black; 
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+} 
+
+.menu{
+    list-style: none;
+    font-family: 'Square Peg', cursive;
+    background-image: url(https://toyotacvi.com.co/wp-content/uploads/2021/07/Corolla-Cross.jpg);
+    background-repeat: no-repeat;
+    padding: 0px;
+    float: left;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+} 
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: orangered;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.Buscar{
+    float: left;
+    padding: auto;
+    text-align: right;
+    left: 20px;
+}
+
+buscar input{
+    left: 20px;
+}   
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.Inicio{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
+}
+
+.nombre{
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    color: black;
+}
+
+.nombre2{
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    color: black;
+}
+
+.nombre3{
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    color: black;
+}
+
+.nombre4{
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    color: black;
+}
+
+.nombre5{
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    color: black;
+}
+
+.slider{
+    width: 1200;
+    height: 450px;
+    margin: 50 auto 0;
+    overflow: hidden;
+    border: solid 8px black;
+    
+ }
+ .slider ul{
+     display: flex;
+     padding: 0;
+     margin: 0;
+     width: 300%;
+     animation: slide 16s infinite ease-in-out;
+ }
+ .slider li{
+     list-style: none;
+     width: 100%;
+ }
+ .slider img{
+     width: 100%;
+ }
+@keyframes slide{
+    0% {margin-left: 0%;}
+    20% {margin-left: -100%;}
+
+    30% {margin-left: -200%;}
+    50% {margin-left: -200%;}
+
+    70% {margin-left: -100%;}
+    90% {margin-left: 0%;}  
+}
+
+.carrusel{
+    padding: 10px;
+    margin-top: 100px;
+}
+ 
+.sesion4{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 33px; 
+  
+
+}
+
